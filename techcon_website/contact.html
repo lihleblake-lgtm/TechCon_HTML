@@ -1,46 +1,78 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>TechCon 2024 - Conference Homepage</title>
-    </head>
-    <body>
-        <!-- Header -->
-         <header>
-            <h1>TechCon 2024</h1>
-            <nav>
-                <ul>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="schedule.html">Schedule</a></li>
-                    <li><a href="register.html">Register</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-         </header>
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us - TechCon 2024</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
 
-         <!-- Main Section -->
-          <main>
-            <section>
-                <h2>Welcom to TechCon 2024</h2>
-                <p>
-                    TechCon 2024 brings together innovators, developers, and tech leaders
-                    from around the globe. Join us for inspirimg keynotes, interactive
-                    sessions, and hands-on workshops designed to shape the future of
-                    technology.
-                </p>
+  <!-- HEADER -->
+  <header>
+    <h1>Contact Us</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="schedule.html">Schedule</a></li>
+        <li><a href="register.html">Register</a></li>
+      </ul>
+    </nav>
+  </header>
 
-                <!-- Embedded Video -->
-                 <video controls width="600">
-                    <source src="promo.mp4" type="video/mp4">
-                    <track src="promo-subtitles.vtt" kind="subtitles" src="en" label="English">
-                    Your browser does not support the video tag. Please
-                    <a href="promo.mp4">download the video</a> instead.
-                 </video>
-            </section>
-          </main>
+  <!-- MAIN CONTENT -->
+  <main>
 
-          <!-- footer -->
-           <footer>
-            <P>&copy; 2024 TechCon. All rights reserved. Explicit copyright notice included.</P>
-           </footer>
-           </body>
+    <!-- Contact Info -->
+    <section>
+      <h2>Get in Touch</h2>
+      <p>Email us at: <a href="mailto:email@example.com">email@example.com</a></p>
+
+      <h3>Follow us on Social Media</h3>
+      <ul>
+        <li><a href="https://facebook.com/TechCon2024" target="_blank">Facebook</a></li>
+        <li><a href="https://twitter.com/TechCon2024" target="_blank">Twitter</a></li>
+        <li><a href="https://instagram.com/TechCon2024" target="_blank">Instagram</a></li>
+      </ul>
+    </section>
+
+    <!-- Embedded Google Map -->
+    <section>
+      <h2>Our Location</h2>
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!..." 
+        width="100%" 
+        height="300" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </section>
+
+    <!-- Contact Form -->
+    <section>
+      <h2>Contact Us</h2>
+      <form action="#" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2024 TechCon. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
